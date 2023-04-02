@@ -10,6 +10,7 @@ link notion----> https://www.notion.so/a81c226fc8ab43ebb8349d9e4fda0010?v=0effdb
 link mockups ---->https://drive.google.com/drive/folders/1j7ofW18IZgQo0trt4ZZvXKewEswFNR_t?usp=sharing
 
 
+link pagina inicio ---->https://drive.google.com/drive/folders/1Ro0XIZUTYavsCntkchV_ZcQPJdBVGPfO?usp=sharing
 
 Ashley Nicole Aguilar Ramírez                                                             
 Daniel Adonay García Aguilar                                                              
