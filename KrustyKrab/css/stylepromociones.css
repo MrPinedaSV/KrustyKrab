@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #f3f3f3;
+    font-family: "Poppins", sans-serif;
+    background-image: url(../img/fondo\ chido.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecera{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: none;
+  
+  }
+
+.menu{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+    .navbar{
+      display: flex;
+      
+    }
+    .menu-1{
+      background-color: rgb(250, 217, 29);
+      margin-right: 100px;
+      width: 600px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      border-radius: 40px;
+    }
+    .logo-1{
+      margin-right: 40px;
+      width: 50px;
+      height: 50px;
+    }
+    .menu .navbar ul li {
+      position: relative;
+      float: left;
+    }
+    .menu .navbar ul li a {
+      font-size: 18px;
+      padding: 30px;
+      color: black; 
+      display: block;
+    }
+    .menu .navbar ul li a:hover{
+      color: rgb(255, 0, 0); 
+    }
+    
+    #menu{
+        display: none;
+      }
+    .menu-icono{
+      width: 25px;
+    }
+
+    .menu label{
+        cursor: pointer;
+        display: none;
+    }
+
+    .btn-1{
+      background-color: rgb(255, 224, 46);
+      color: black;
+      font-size: 18px;
+      border-radius: 40px;
+      border: none;
+      width: 150px;
+  height: 45px;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+    }
+    .btn-1:hover{
+      color: rgb(255, 0, 0); 
+    }
+  
+    .menu-icono{
+      width: 25px;
+    }
+
+
+@media (max-width: 480px) {
+    .fondo {
+        background-size: contain;
+    }
+
+    
+}
+.menup {
+    padding: 0 10px 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-gap: 20px 40px;
+}
+.titulo {
+    background: #e84;
+    color: white;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    grid-column: 1/-1;
+    text-align: center;
+  
+}
+.titulo>h1 {
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    text-decoration: uppercase;
+}
+.titulo>h3 {
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.comida-items {
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 25px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.6);
+    transition: .3s ease-in-out;
+
+}
+.comida-items img {
+    position: relative;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    cursor: pointer;
+}
+h1 {
+    grid-column: 1/-1;
+    text-align: center;
+}
+.detalles {
+    padding: 5px 5px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 5px;
+    background-color: white;
+    right: 55px;
+}
+.sub-detalles>h5 {
+    font-weight: 600;
+    font-size: 18px;
+}
+.precio {
+    text-align: right;
+}
+.detalles>p {
+    color: #6f6f6f;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+}
+.detalles>button {
+    background: #e84;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 1px;
+    width: 190px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.detalles>button:hover {
+    background-color: red;
+    transition: .5s ease all;
+}
+.button:hover {
+    background-color: red;
+}
+
+.menup-ofertas {
+    padding: 0 10px 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-gap: 20px 40px;
+
+}
+
+.ofertas {
+    background: #e84;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    grid-column: 1/-1;
+    text-align: center;
+    background-color: transparent;
+}
+.especial {
+
+    color: red;
+}
+.especial2 {
+
+    color: red;
+}
+
+.espaciales1 {
+    
+    color: red;
+}
+.precios-ofertas {
+
+    color: red;
+}
+
+
+/*FOOTER*/
+
+.pie-pagina{
+    background-color: #212121;
+    margin-top: auto;
+    align-items: center;
+  }
+  .pie-pagina .grupo-1{
+    width:100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ; 
+    grid-gap: 10px;
+    padding: 10px 0px;
+  }
+  .pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  .pie-pagina .grupo-1 .box h3{
+    color: whitesmoke;
+    font-size: 17px;
+  }
+  .pie-pagina .grupo-1 .box h2{
+    color: white;
+    font-size: 15px;
+  }
+  
+  .pie-pagina .grupo-1 .box .red-social img{
+    width: 50px;
+    height: 50px;
+    position: center;
+  }
+  
+  .pie-pagina .grupo-1 .box img{
+    width: 50px;
+    height: 50px;
+    position: center;
+  }
+
+  @media (max-width: 991px) {
+    .menu {
+      padding: 10px; 
+      justify-content: flex-start; 
+    }
+}
