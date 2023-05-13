@@ -9,9 +9,11 @@ que llame la atencion al usuario visualmente y asi el cliente quiera adquirir de
 
  📃 link mockups ---->https://drive.google.com/drive/folders/1j7ofW18IZgQo0trt4ZZvXKewEswFNR_t?usp=sharing
 
-
  📃 link pagina inicio ---->https://gqg85tj0pwfgkikszlpulg.on.drv.tw/KrustyKrab/
-
+ 
+ 📃 link manual de usuario ----> https://drive.google.com/file/d/1JblkgMOGeZoLkd-v6wo61pAuujyrGde9/view?usp=sharing
+ 
+ 📃 link manual tecnico ---->  https://drive.google.com/file/d/1PBhrZQ0AN_fHSHhlKrseC5VySVqjPcYY/view?usp=sharing
 ___________________________________________________________________________________________________________________________________
   👨‍💻  DESARROLLADORES
 
