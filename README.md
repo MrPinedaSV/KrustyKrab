@@ -5,7 +5,7 @@ Nuestro trabajo trata de un sitio web en el cual el tema principal es un restaur
 ambientada a la serie animada Bob Esponja. Hemos decidido darle un tema llamativo y colorido para 
 que llame la atencion al usuario visualmente y asi el cliente quiera adquirir de nuestros productos.
 
-link notion----> https://www.notion.so/a81c226fc8ab43ebb8349d9e4fda0010?v=0effdbe2b2fc4adfb167b52534202a78&pvs=4çZ
+link Trello ----> https://trello.com/b/6D93xu6r/krusty-krab
 
 link mockups ---->https://drive.google.com/drive/folders/1j7ofW18IZgQo0trt4ZZvXKewEswFNR_t?usp=sharing
 
